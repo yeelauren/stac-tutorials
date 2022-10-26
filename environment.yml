@@ -1,0 +1,20 @@
+name: pystac-env
+channels:
+  - defaults
+dependencies:
+  - python
+  - ipython
+  - matplotlib
+  - ca-certificates
+  - certifi
+  - openssl
+  - requests
+  - rasterio
+  - numpy
+  - pandas
+  - ipykernel
+  - pip
+  - pip:
+    - pystac
+    - pystac-client
+    - pyproj
