@@ -2,7 +2,7 @@ name: pystac-env
 channels:
   - defaults
 dependencies:
-  - python
+  - python=3.8
   - ipython
   - matplotlib
   - ca-certificates
@@ -13,6 +13,7 @@ dependencies:
   - numpy
   - pandas
   - ipykernel
+  - xcube
   - pip
   - pip:
     - pystac
