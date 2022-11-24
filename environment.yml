@@ -1,21 +1,25 @@
 name: pystac-env
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - python=3.8
+  - python=3.10
   - ipython
+  - dask
+  - gdal >=1.11
   - matplotlib
   - ca-certificates
   - certifi
   - openssl
   - requests
-  - rasterio
   - numpy
   - pandas
+  - shapely
   - ipykernel
-  - xcube
   - pip
   - pip:
     - pystac
     - pystac-client
+    - rasterio
     - pyproj
+    - stackstac
